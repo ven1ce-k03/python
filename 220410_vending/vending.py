@@ -1,4 +1,5 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
+import time
 
 # 음료, 음료의 가격 정의
 # 금액 변수 초기화
@@ -13,7 +14,9 @@ moneyList = [700, 700, 700, 1600, 1600, 1400, 1400, 2100, 1100, 1100,
 money = 0
 
 class Ui_MainWindow(object):
-
+    
+    #class myMoney(self):
+    
     # 자판기 프로세스 초기화
 
     def initialize(self):
@@ -38,9 +41,9 @@ class Ui_MainWindow(object):
 
     # 돈을 넣음으로써 호출되는 함수
 
-    def inputMoney(self, _int):
+    def inputMoney(self, addedmoney):
         global money
-        money += _int
+        money += addedmoney
         self.gotMoney()
 
     # 사용자가 넣은 돈을 자판기가 추가하는 함수
@@ -525,5 +528,6 @@ if __name__ == "__main__":
     ui.setupUi(MainWindow)
     MainWindow.show()
     ui.initialize()
+    time.sleep(0.4)
     sys.exit(app.exec_())
 

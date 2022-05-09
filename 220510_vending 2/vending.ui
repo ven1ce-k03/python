@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1113</width>
+    <height>796</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-1</y>
+      <width>1111</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="drinkGrid">
+     <property name="spacing">
+      <number>10</number>
+     </property>
+     <item row="1" column="4">
+      <layout class="QVBoxLayout" name="drinkGrid1_14">
+       <item>
+        <widget class="QLabel" name="drinkLabel14">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton14">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="1">
+      <layout class="QVBoxLayout" name="drinkGrid1_11">
+       <item>
+        <widget class="QLabel" name="drinkLabel11">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton11">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="0">
+      <layout class="QVBoxLayout" name="drinkGrid1_10">
+       <item>
+        <widget class="QLabel" name="drinkLabel10">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton10">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="5">
+      <layout class="QVBoxLayout" name="drinkGrid1_15">
+       <item>
+        <widget class="QLabel" name="drinkLabel15">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton15">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="2">
+      <layout class="QVBoxLayout" name="drinkGrid1_12">
+       <item>
+        <widget class="QLabel" name="drinkLabel12">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton12">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="7">
+      <layout class="QVBoxLayout" name="drinkGrid1_17">
+       <item>
+        <widget class="QLabel" name="drinkLabel17">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton17">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="9">
+      <layout class="QVBoxLayout" name="drinkGrid1_19">
+       <item>
+        <widget class="QLabel" name="drinkLabel19">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton19">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="6">
+      <layout class="QVBoxLayout" name="drinkGrid1_16">
+       <item>
+        <widget class="QLabel" name="drinkLabel16">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton16">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="8">
+      <layout class="QVBoxLayout" name="drinkGrid1_18">
+       <item>
+        <widget class="QLabel" name="drinkLabel18">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton18">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="0">
+      <layout class="QVBoxLayout" name="drinkGrid0">
+       <item>
+        <widget class="QLabel" name="drinkLabel0">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton0">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="1">
+      <layout class="QVBoxLayout" name="drinkGrid1">
+       <item>
+        <widget class="QLabel" name="drinkLabel1">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton1">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="3">
+      <layout class="QVBoxLayout" name="drinkGrid1_3">
+       <item>
+        <widget class="QLabel" name="drinkLabel3">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton3">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="3">
+      <layout class="QVBoxLayout" name="drinkGrid1_13">
+       <item>
+        <widget class="QLabel" name="drinkLabel13">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton13">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="7">
+      <layout class="QVBoxLayout" name="drinkGrid1_7">
+       <item>
+        <widget class="QLabel" name="drinkLabel7">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton7">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="8">
+      <layout class="QVBoxLayout" name="drinkGrid1_8">
+       <item>
+        <widget class="QLabel" name="drinkLabel8">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton8">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="6">
+      <layout class="QVBoxLayout" name="drinkGrid1_6">
+       <item>
+        <widget class="QLabel" name="drinkLabel6">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton6">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="5">
+      <layout class="QVBoxLayout" name="drinkGrid1_5">
+       <item>
+        <widget class="QLabel" name="drinkLabel5">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton5">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="9">
+      <layout class="QVBoxLayout" name="drinkGrid1_9">
+       <item>
+        <widget class="QLabel" name="drinkLabel9">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton9">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="4">
+      <layout class="QVBoxLayout" name="drinkGrid1_4">
+       <item>
+        <widget class="QLabel" name="drinkLabel4">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton4">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="2">
+      <layout class="QVBoxLayout" name="drinkGrid1_2">
+       <item>
+        <widget class="QLabel" name="drinkLabel2">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton2">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="0">
+      <layout class="QVBoxLayout" name="drinkGrid1_20">
+       <item>
+        <widget class="QLabel" name="drinkLabel20">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton20">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="1">
+      <layout class="QVBoxLayout" name="drinkGrid1_21">
+       <item>
+        <widget class="QLabel" name="drinkLabel21">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton21">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="2">
+      <layout class="QVBoxLayout" name="drinkGrid1_22">
+       <item>
+        <widget class="QLabel" name="drinkLabel22">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton22">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="3">
+      <layout class="QVBoxLayout" name="drinkGrid1_23">
+       <item>
+        <widget class="QLabel" name="drinkLabel23">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton23">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="4">
+      <layout class="QVBoxLayout" name="drinkGrid1_24">
+       <item>
+        <widget class="QLabel" name="drinkLabel24">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton24">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="5">
+      <layout class="QVBoxLayout" name="drinkGrid1_25">
+       <item>
+        <widget class="QLabel" name="drinkLabel25">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton25">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="6">
+      <layout class="QVBoxLayout" name="drinkGrid1_26">
+       <item>
+        <widget class="QLabel" name="drinkLabel26">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton26">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="7">
+      <layout class="QVBoxLayout" name="drinkGrid1_27">
+       <item>
+        <widget class="QLabel" name="drinkLabel27">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton27">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="8">
+      <layout class="QVBoxLayout" name="drinkGrid1_28">
+       <item>
+        <widget class="QLabel" name="drinkLabel28">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton28">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="9">
+      <layout class="QVBoxLayout" name="drinkGrid1_29">
+       <item>
+        <widget class="QLabel" name="drinkLabel29">
+         <property name="text">
+          <string>초기화 중..</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="drinkButton29">
+         <property name="text">
+          <string>구매</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLCDNumber" name="moneyDisplay">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>560</y>
+      <width>221</width>
+      <height>81</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="smallMoney">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>560</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="medMoney">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>610</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>500</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bigMoney">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>660</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1000</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>550</y>
+      <width>691</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="releaseButton">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>650</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>반환</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="adminButton">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>710</y>
+      <width>381</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>관리자</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1113</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
