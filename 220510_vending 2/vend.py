@@ -1,3 +1,4 @@
+from multiprocessing.sharedctypes import Value
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
@@ -22,8 +23,7 @@ drinks = dict()
 money = 0
 sellingDrink = False
 
-for i in range(len(drinkList)):
-    drinks[drinkList[i]] = 20
+
 
 class second(QDialog, QWidget, settingWindow):
     def __init__(self):
@@ -35,17 +35,33 @@ class second(QDialog, QWidget, settingWindow):
         self.show()
     
     def showDrink(self):
+        self.currentDrink.setText("")
         for i in range(len(drinkList)):
             self.currentDrink.append('id : ' + str(i) + '||' + drinkList[i] + ' : ' + str(drinks[drinkList[i]]) + '잔')
 
     def editDrink(self):
-        pass
+        global drinks, drinkList
+        try:
+            selectedDrink = int(self.idEdit.toPlainText())
+            if self.adminCode.toPlainText() == "admin":
+                drinks[drinkList[selectedDrink]] = int(self.amountEdit.toPlainText())
+                QMessageBox.about(self,'정보',f'{drinkList[selectedDrink]}의 잔 수가 수정되었습니다.')
+            else: 
+                QMessageBox.about(self,'정보','관리자 코드가 올바르지 않습니다.')
+        except ValueError:
+            QMessageBox.about(self, '오류', '잔 수나 아이디에는 오직 정수만 들어갈 수 있습니다.')
+        except IndexError:
+            QMessageBox.about(self, '오류', 'id의 값이 벗어났습니다.')
+        self.showDrink()
     
 
 class mainWindow(QMainWindow, mainUi):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
+
+        for i in range(len(drinkList)):
+            drinks[drinkList[i]] = 20
         
         self.adminButton.clicked.connect(self.admin_window)
         self.smallMoney.clicked.connect(lambda : self.inputMoney(100))
